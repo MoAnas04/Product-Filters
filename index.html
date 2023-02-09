@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Products</title>
+  </head>
+  <body>
+    <h2>Products</h2>
+    <input id="search-input" type="text" placeholder="Search by title" />
+    <h6>Rating Filter</h6>
+    <select id="rating-filter">
+      <option value="">All</option>
+      <option value="5">5 Stars</option>
+      <option value="4">4 Stars</option>
+      <option value="3">3 Stars</option>
+      <option value="2">2 Stars</option>
+      <option value="1">1 Star</option>
+    </select>
+    <h6>Category Filter</h6>
+    <select id="category-filter">
+      <option value="">All</option>
+      <option value="Men's clothing">Men's Clothing</option>
+      <option value="Jewelery">Jewelery</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Women's clothing">Women's Clothing</option>
+    </select>
+    <div id="product-list">
+      <!-- Products will be inserted here -->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
